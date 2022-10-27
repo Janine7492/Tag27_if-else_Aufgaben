@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body section>label {
+    margin: 1rem auto;
+}
+
+body section input {
+    width: 200px;
+}
+
+body section p {
+    margin: 0.3rem auto;
+}
+
+datalist {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-bottom: 1rem;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.orange {
+    background-color: lightyellow;
+}
+
+.red {
+    background-color: lightcoral;
+}
